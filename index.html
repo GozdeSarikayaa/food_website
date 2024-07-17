@@ -2,9 +2,13 @@
 <html class="" lang="">
 
 <head>
+
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Button Click Redirect</title>
+  <script src="index.js"></script>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="shorcut icon" href="img/lunch_2082045.png"
@@ -22,10 +26,12 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+
 </head>
 
 <body>
-
+ 
  <header>
 <h1>Lezetli Yemekler</h1>
 <nav>
@@ -34,6 +40,7 @@
     <li><a href="menu.html">Menü</a></li>
     <li><a href="indirimler.html">İndirimler</a></li>
     <li><a href="hakkimizda.html">Hakkımızda</a></li> <!-- Hakkımızda sayfasına link -->
+    <li><a href="siparis2.html">Sipariş Ver</a></li> 
 
   </ul>
 </nav>
@@ -61,7 +68,9 @@
     <h3>İskender</h3>
     <p>Yoğurt ve tereyağ ile soslanmış döner üzerine yapılan Lezetli bir yemek</p>
      <span><del>395 TL</del> &nbsp;245 TL</span>
-     <button class="order-button">Sipariş Ver</button>
+     <a href="siparis1.html" target="_blank">
+      <button class="order-button" id="orderButton1">Sipariş Ver</button>
+      </a>
   </div>
 
   <div class="menu_item">
@@ -69,7 +78,9 @@
     <h3>Adana Kebap</h3>
     <p>ince kıyılmış dana eti ile yapılan,közlenmiş sebzeler ile servis edilen nefis bir kebap çeşidi.</p>
      <span><del>349 TL</del> &nbsp;215 TL</span>
-     <button class="order-button">Sipariş Ver</button>
+     <a href="siparis1.html" target="_blank">
+     <button class="order-button" id="orderButton2">Sipariş Ver</button>
+     </a>
   </div>
 
   <div class="menu_item">
@@ -77,7 +88,9 @@
     <h3>Lahmacun</h3>
     <p>İnce hamur üstüne dana kıyma, soğan ve baharatlarla yapılan yemek çeşidi.</p>
      <span><del>214 TL</del> &nbsp;185 TL</span>
-     <button class="order-button">Sipariş Ver</button>
+     <a href="siparis1.html" target="_blank">
+      <button class="order-button" id="orderButton3">Sipariş Ver</button>
+      </a>
   </div>
 
 
@@ -86,7 +99,9 @@
     <h3>Çöp Şiş</h3>
     <p>Izgarada pişirilen,lezzetli baharatlarla marine edilmiş ve taze sebzelerle servis edilmiştir.</p>
      <span><del>214 TL</del> &nbsp;185 TL</span>
-     <button class="order-button">Sipariş Ver</button>
+     <a href="siparis1.html" target="_blank">
+      <button class="order-button" id="orderButton4">Sipariş Ver</button>
+      </a>
   </div>
 
 </div>
@@ -104,7 +119,9 @@
   <h3>İçli Köfte</h3>
    <p>Bulgurun içine kıyma konularak hazırlanan,kızartılarak servis edilen bir lezzet.</p>
   <span> 95 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton5">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
@@ -113,7 +130,9 @@
   <h3>İmam Bayıldı</h3>
    <p>Biber ve domates ile doldurulmuş.Zeytinyağ ile pişirilen bir sebze yemeği.</p>
   <span> 145 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton6">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
@@ -123,7 +142,9 @@
   <h3>Karnıyarık</h3>
    <p>Patlıcanın ortadan ikiyie ayrılıp kıyma harcı doldurulmasıyla yapılan bir yemek.</p>
   <span> 219 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton7">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
@@ -133,7 +154,9 @@
   <h3>Tavuk Pilav</h3>
    <p>Özenle pişirilen taze tavuk etleri,tereyağlı pilav ile buluşmuş hali ile servis ediliyor.</p>
   <span> 199 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton8">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
@@ -142,7 +165,9 @@
   <h3>Makarna</h3>
    <p>Özel soslarla hazırlanan enfes makarna, taze malzemelerle yapılmış eşsşiz lezzet.</p>
   <span> 199 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton9">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
@@ -152,7 +177,9 @@
   <h3>Piftek</h3>
    <p>Özenle marine edilmiş ve mükemmel bir şekilde pişirilmiş pirzola.</p>
   <span> 199 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton10">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
@@ -162,7 +189,9 @@
   <h3>Sarma</h3>
    <p>Özenle hazırlanan sarma, zeytinyağlı iç harcı ve incecik asma yapraklarıyla sarılmış halde servis ediliyor.</p>
   <span> 199 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton11">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
@@ -171,7 +200,9 @@
   <h3>Pide</h3>
    <p>Odun fırınında ve özenle pişirilen pide ,çıtıt çıtır hamuru ve zengin malzemeleriyle damaklarda şölen oluşturur..</p>
   <span> 199 TL</span>
-  <button class="order-button">Sipariş Ver</button>
+  <a href="siparis1.html" target="_blank">
+    <button class="order-button" id="orderButton12">Sipariş Ver</button>
+    </a>
   <span class="tag">Popüler</span>
 </div>
 
