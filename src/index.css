@@ -1,0 +1,478 @@
+
+
+*{
+margin: o;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6; /* Satır yüksekliğini artırarak metinlerin okunabilirliğini artırır */
+
+
+}
+
+header {
+
+color: #fff;
+padding: 20px 0px;
+text-align: center;
+
+}
+
+header h1{
+margin-bottom: 10px;
+
+}
+
+nav ul{
+list-style: none;
+
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 20px;
+
+}
+ .arama-kutusu{
+ max-width: 800px;
+ margin: 30px auto 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+
+ }
+.arama-kutusu input[type="text"]{
+padding: 15px;
+width:  70%;
+border-radius: 30px ;
+border: none;
+outline: none;
+font-size: 18px;
+box-shadow: 0 2px 5 px rgba(0, 0, 0, 0.1);
+
+}
+.arama-kutusu button{
+padding: 15px 30px;
+box-shadow: 0 2px 5px;
+background-color: #ff5733;
+border: none;
+outline: none;
+border-radius: 30px;
+font-size: 18px;
+color: #fff;
+cursor: pointer;
+transition: 300ms all;
+
+}
+
+.arama-kutusu button:hover {
+    background-color: #ff3d00;
+}
+
+
+.hero{
+background-image: url("img/arka.jpg");
+background-size:  cover;
+background-position:  center;
+color: #fdfafa;
+text-align: center;
+padding: 100px 0px;
+position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.hero p {
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+.button,.order-button {
+display: inline-block;
+background-color: #ff5733;
+color:  #f3efef;
+padding: 15px 30px;
+text-decoration: none;
+border-radius: 4px;
+transition: 300ms all;
+cursor: pointer;
+ border: none;
+outline: none;
+}
+
+.order-button{
+display: block;
+margin: 0 auto;
+margin-top: 10px;
+background-color: #ff5733;
+color: #fff;
+padding: 10px 20px;
+border-radius: 4px;
+border: none;
+outline: none;
+cursor: pointer;
+
+
+}
+
+
+.button:hover,.order-button:hover{
+background-color: #ff3d00;
+
+
+}
+
+
+.indirimli-yemek, menü{
+max-width: 1200px;
+margin: 20px auto;
+position: relative;
+
+}
+
+.indirimli-yemek h2, menü h2{
+margin-bottom: 20px;
+
+
+}
+
+.menu_items {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+}
+
+.menu_item{
+width: calc(25% - 20px);;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 20px;
+margin-bottom: 20px;
+position: relative;
+transition: 300ms all;
+
+}
+
+.menu_item:hover{
+transform: scale(1.03);
+
+}
+
+.menu_item img {
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid #000; /* İsteğinize göre çerçeve rengini ve kalınlığını değiştirebilirsiniz */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Fotoğrafın çerçeve sınırlarını aşmasını önler */
+}
+
+.menu_item h3,.menu_item p{
+margin-bottom: 10px;
+
+}
+
+.menu_item span{
+display: block;
+font-weight: bold;
+color: green;
+
+
+}
+del{
+
+    color: red;
+    opacity: 0.7;
+}
+
+.hakkimizda {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.hakkimizda h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hakkimizda p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+del {
+    
+    opacity: 0.7;
+    text-decoration: none; /* Altı çizili stilini kaldırır */
+}
+
+
+
+.footer {
+    background-color: #e3651e; /* Turuncu arka plan */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto; /* Ortalar */
+    border: 2px solid #e3651e; /* Dikdörtgen çerçeve */
+    display: inline-block; /* İnce dikdörtgen görünümü */
+    padding: 10px; /* İç boşluk */
+}
+
+.footer h2 {
+    margin: 0 0 10px; /* Başlık altındaki boşluk */
+    color: #fff; /* Beyaz başlık rengi */
+}
+
+.footer p {
+    color: #fff; /* Beyaz metin rengi */
+    margin: 0; /* Alt boşluğu kaldır */
+}
+.footer-content p {
+    color: #fff; /* Beyaz metin rengi */
+    margin: 10px 0; /* Alt boşluğu ekle */
+}
+
+.footer-content i {
+    margin-right: 8px; /* İkon ile metin arasında boşluk */
+    color: #fff; /* İkon rengi */
+}
+
+.menu_item del {
+    text-decoration: none; /* Altı çizili stilini kaldırır */
+}
+
+.hakkimizda del {
+    text-decoration: none; /* Altı çizili stilini kaldırır */
+}
+
+.hakkimizda {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.hakkimizda-content {
+    display: flex;
+    align-items: center; /* Dikey merkezleme */
+    
+}
+
+.restoran-resmi {
+    width: 300px; /* Resim genişliği */
+    height: auto; /* Orantılı yükseklik */
+    margin-right: 20px; /* Metin ile resim arasında boşluk */
+    border-radius: 8px; /* Kenarları yuvarlatma */
+}
+
+.hakkimizda-metni {
+    max-width: 600px; /* Metin için maksimum genişlik */
+}
+
+
+
+/* Temel stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.cart_items {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cart_items h2 {
+    margin-bottom: 10px;
+}
+
+.cart_items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart_items li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e3651e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.arama-kutusu {
+    max-width: 800px;
+    margin: 30px auto 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arama-kutusu input[type="text"] {
+    padding: 15px;
+    width: 70%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.arama-kutusu button {
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px;
+    background-color: #ff5733;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.arama-kutusu button:hover {
+    background-color: #ff3d00;
+}
+
+.hero {
+    background-image: url("img/arka.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fdfafa;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button, .order-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #f3efef;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 300ms all;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.order-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+

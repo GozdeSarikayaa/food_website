@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepetim</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Sepetim</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cart_items">
+        <h2>Sepet İçeriği</h2>
+        <ul id="cartList">
+            <!-- Sepet içeriği burada JavaScript ile oluşturulacak -->
+        </ul>
+        <button class="order-button" id="proceedToOrder">Sipariş Ver</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lezzetli Yemekler</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script>
+        document.getElementById('proceedToOrder').addEventListener('click', function() {
+            window.location.href = 'siparis1.html';
+        });
+    </script>
+</body>
+</html>
